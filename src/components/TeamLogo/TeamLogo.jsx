@@ -1,5 +1,5 @@
 import React from 'react'
-import './TeamLogo.css'
+import './teamLogo.css'
 
 export const TeamLogo = ({team}) => {
 
