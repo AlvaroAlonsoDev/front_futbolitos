@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 import './header.css'
 
@@ -10,10 +11,12 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import StadiumIcon from '@mui/icons-material/Stadium';
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <header>
       <nav>
-        <Link to="/"><div><CottageIcon /></div>Home</Link>
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''}><div><CottageIcon className={location.pathname === '/' ? 'active' : ''}/></div>Home</Link>
         <Link to="/club"><div><StadiumIcon /></div>Club</Link>
         <Link to="/team"><div><GroupsIcon /></div>Equipo</Link>
         <Link to="/match"><div><SportsSoccerIcon /></div>Partidos</Link>

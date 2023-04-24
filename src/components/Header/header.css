@@ -20,3 +20,7 @@ a {
     text-decoration: none;
     margin: 5px 0;
 }
+
+.active {
+    color: #9EE0E0;
+}

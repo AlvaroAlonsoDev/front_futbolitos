@@ -1,0 +1,25 @@
+.last-matches {
+    display: flex;
+    flex-direction: column;
+    
+
+    border-bottom-right-radius: 5vmin;
+    border-bottom-left-radius: 5vmin;
+    border: 3px solid #9EE0E0;
+    max-height: 30%;
+    color: #20231E;
+}
+
+.last-matches-title {
+    font-weight: 400;
+    display: flex;
+    background-color: #9EE0E0;
+}
+
+.last-matches-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 100px;
+}
