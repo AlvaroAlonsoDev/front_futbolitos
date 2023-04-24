@@ -1,5 +1,5 @@
 import React from 'react'
-import './LastMatches.css'
+import './lastMatches.css'
 import { TeamLogo } from '../../TeamLogo/TeamLogo'
 import Result from '../../Result/Result'
 
